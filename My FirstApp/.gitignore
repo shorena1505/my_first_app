@@ -1,0 +1,57 @@
+# Python compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+.venv/
+env/
+ENV/
+
+# Django database
+db.sqlite3
+
+# Django media and static files
+media/
+staticfiles/
+static/
+
+# Environment / secrets
+.env
+*.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Migrations (optional)
+# Comment this line if you want to track migrations
+#migrations/
+
+# OS files
+.DS_Store
+Thumbs.db
